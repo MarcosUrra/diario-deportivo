@@ -1,0 +1,17 @@
+.img-carrusel {
+    max-height: 50px; 
+}
+
+/* barra reultados en vivo */
+.barra-llamativa {
+    background-color: #3f8aeb; 
+    color: white; 
+    text-align: center;
+    padding: 5px; 
+    transition: background-color 0.3s; 
+}
+
+/* Hover */
+    .barra-llamativa:hover {
+        background-color:#198754 
+}

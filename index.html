@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- nav bar-->
+    <nav class="navbar navbar-expand-md bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: white;">
+                <img src="imagenes/logo2.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                Diario deportivo argentino
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Fútbol</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Basquet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Tenis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Rugby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Polideportivo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+    <!-- Container ultimas noticias -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 bg-light text-center p-3 order-lg-4">
+                <img src="imagenes/bandeira-argentina-flag.png" alt="Imagen 1" style="max-width: 100%; height: auto;" class="img-fluid">
+                <h2 style="font-size: 30px; font-weight: bold; color: #006400;">DDA</h2>
+                <p>¡Tu fuente confiable para noticias deportivas!</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bg-light p-3">
+                <img src="imagenes/automovilismo (1) (1).jpg" alt="Imagen 2" style="max-width: 100%; height: auto;" class="img-fluid">
+                <h4 style="color: #006400;">Fórmula 1</h4>
+                <p>Sainz y Leclerc volaron en los ensayos de Singapur y sueñan cortar la racha de Verstappen.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bg-light p-3 order-lg-1">
+                <img src="imagenes/mbappe1 (1).jpg" alt="Imagen 3" style="max-width: 100%; height: auto;" class="img-fluid">
+                <h4 style="color: #006400;">PSG 2-3 Niza</h4>
+                <p>Ni Mbappé evita otro fiasco: el peor arranque del PSG en años.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 bg-light p-3 order-lg-3">
+                <img src="imagenes/pumas3 (1).jpg" alt="Imagen 4" style="max-width: 100%; height: auto;" class="img-fluid">
+                <h4 style="color: #006400;">Mundial de rugby</h4>
+                <p>Los Pumas se preparan para enfrentar a Samoa este viernes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barra resultados en vivo -->
+    <div class="container-fluid barra-llamativa">
+        <h3 class="m-0">Resultados en Vivo</h3>
+    </div>
+    
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="imagenes/futbol (2).jpg" class="d-block w-100" img-carrusel alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="imagenes/rugby (1).jpg" class="d-block w-100" img-carrusel alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/basquet (1).jpg" class="d-block w-100" img-carrusel alt="...">
+        </div>
+          <div class="carousel-item">
+              <img src="imagenes/tenis (1).jpg" class="d-block w-100" img-carrusel alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="imagenes/automovilismo (1).jpg" class="d-block w-100" img-carrusel alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="imagenes/atletismo (1).jpg" class="d-block w-100" img-carrusel alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Contacto</h4>
+                <p>Email: contacto@diariodeportivo.com</p>
+                <p>Teléfono: +1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Enlaces útiles</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Anúnciate con nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="my-4">
+        <p class="text-center">&copy; 2023 Diario Deportivo Argentino</p>
+    </div>
+  </footer>
+
+  
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
